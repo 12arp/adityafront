@@ -19,7 +19,7 @@ const Products = ({ currentLanguage }) => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('https://adityaback.onrender.com/api/products');
+                const response = await axios.get('https://adityaback.onrender.com/products');
                 if (response.data.success) {
                     setProducts(response.data.data);
                 } else {
