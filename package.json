@@ -1,5 +1,5 @@
 {
-  "homepage":"https://12arp.github.io/adityafront",
+  
   "name": "sahu-metals-react",
   "version": "0.1.0",
   "private": true,
@@ -27,6 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "engines": {
+  "node": "16.x"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
