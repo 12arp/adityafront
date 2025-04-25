@@ -33,7 +33,7 @@ const AdminPanel = () => {
 
     const fetchProducts = async () => {
         try {
-            const res = await axios.get(`${BACKEND_URL}/api/products`);
+            const res = await axios.get(`${BACKEND_URL}/products`);
             if (res.data.success) {
                 setProducts(res.data.data);
             } else {
