@@ -74,7 +74,7 @@ const AdminPanel = () => {
 
             try {
                 setLoading(true);
-                const res = await axios.post(`${BACKEND_URL}/api/upload`, formData, {
+                const res = await axios.post(`${BACKEND_URL}/upload`, formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data'
                     }
@@ -106,7 +106,7 @@ const AdminPanel = () => {
 
             try {
                 setLoading(true);
-                const res = await axios.post(`${BACKEND_URL}/api/upload`, formData, {
+                const res = await axios.post(`${BACKEND_URL}/upload`, formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data'
                     }
